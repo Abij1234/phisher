@@ -64,8 +64,9 @@ break
 
 elif [[ $opt = '3' || $opt = '03' ]]; then
 printf "\033[1;34myou selected instagram \033[0m"
-pfolder=instagam
+pfolder=instagram
 hoster='www.instagram.com-@'
+break
 
 elif [[ $opt = '4' || $opt = '04' ]]; then
 exit 1
